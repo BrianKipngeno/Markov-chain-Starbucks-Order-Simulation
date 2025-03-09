@@ -11,16 +11,16 @@ How long does it typically take to get a coffee at Starbucks? We define three st
 # 🔬 **Implementation**
 1. **One Customer, One Drink**
 
-- A single customer orders one drink with a normally distributed preparation time.
-- We simulate waiting times and visualize the distribution.
+    - A single customer orders one drink with a normally distributed preparation time.
+    - We simulate waiting times and visualize the distribution.
 2. **One Customer, Multiple Drinks**
 
-- A customer randomly selects a drink from a dataset.
-- Each drink has a different average preparation time with varying uncertainty.
+    - A customer randomly selects a drink from a dataset.
+    - Each drink has a different average preparation time with varying uncertainty.
 3. **Multiple Customers, Many Drinks**
 
-- Multiple customers are served by multiple baristas.
-- The model keeps track of available baristas and assigns orders dynamically.
+   - Multiple customers are served by multiple baristas.
+   - The model keeps track of available baristas and assigns orders dynamically.
 # 🛠️ **Tech Stack**
 - Python
 - NumPy, SciPy, Pandas
